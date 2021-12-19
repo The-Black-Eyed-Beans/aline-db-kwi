@@ -23,7 +23,7 @@ while True:
 
 for i in range(1, int(num) + 1):
     bank = {
-        'routingNumber': int(fake.numerify(text='#########')),
+        'routingNumber': fake.numerify(text='#########'),
         'address': fake.street_address(),
         'city': fake.city(),
         'state': fake.state(),
