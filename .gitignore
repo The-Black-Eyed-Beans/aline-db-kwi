@@ -1,3 +1,4 @@
 producers/*.xlsx
 producers/.idea/
 .env
+producers/logs/
